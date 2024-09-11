@@ -174,36 +174,36 @@
 
 
 ##########################################################################################
-# #addition
-print(2 + 2)
-# #multiplication
-print(2 * 2)
-# #division
-print(2 / 2)
-# #modulo
-print(2 % 2) #remainder of the division
-# #powers
-print(2 ** 2)
-# #get the max and min of a number
-print(max (2, 3)) #max number of the set numbers listed
-print(min (2, 3)) #min number of the set numbers listed
-# #round a number
-print(round(2.5)) #rounds to the nearest whole number
-# # absolute value
-print(abs(-2)) #absolute value of the number 
-# # order of operations
-print(2 + 10 * 10 + 3) #order of operations
-# #to do more you need to import special math libraries from python
+# # #addition
+# print(2 + 2)
+# # #multiplication
+# print(2 * 2)
+# # #division
+# print(2 / 2)
+# # #modulo
+# print(2 % 2) #remainder of the division
+# # #powers
+# print(2 ** 2)
+# # #get the max and min of a number
+# print(max (2, 3)) #max number of the set numbers listed
+# print(min (2, 3)) #min number of the set numbers listed
+# # #round a number
+# print(round(2.5)) #rounds to the nearest whole number
+# # # absolute value
+# print(abs(-2)) #absolute value of the number 
+# # # order of operations
+# print(2 + 10 * 10 + 3) #order of operations
+# # #to do more you need to import special math libraries from python
 
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-print(floor(3.7)) #floor means it will always round down
-# #ceil method
-print(ceil(3.7)) #ceil means it will always round up
-# #sqrt method
-print(sqrt(36)) #square root method
-#sqrt method means it will find the square root of the number which is the number that when multiplied by itself gives the number
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3.7)) #floor means it will always round down
+# # #ceil method
+# print(ceil(3.7)) #ceil means it will always round up
+# # #sqrt method
+# print(sqrt(36)) #square root method
+# #sqrt method means it will find the square root of the number which is the number that when multiplied by itself gives the number
 
 
 
@@ -222,15 +222,30 @@ print(sqrt(36)) #square root method
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
+ask=input("What is your name?")
 # input("what is your name?")
+
 # # basic math calculator
 # #ask the user for 2 numbers
+number1=int(input("List a number"))
+number2=int(input("List another number"))
 # # print out a statement where you:
 # # add them together
 # #multiply
 # # find the max number
 # # find the remainder of the numbers
 # #round one number
+print(f"Okay {ask} here are your numbers added")
+print( number1 + number2)
+print(f"Okay {ask} here are your numbers multiplied")
+print( number1 * number2)
+print(f"Okay {ask} here is the max of your numbers")
+print(max(number1, number2))
+print(f"Okay {ask} here is the remainder of your numbers")
+print(number1 % number2)
+print(f"Okay {ask} here is your first number rounded")
+print(round(number1))
+
 
 
 
